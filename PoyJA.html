@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Portforlio</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">My Portfolio</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="home1.html">History</a></li>
+                    <li><a href="AboutMe1.html">ABOUT ME</a></li>
+                    <li><a href="html1.html">HTML</a></li>
+                    <li><a href="programming1.html">Programming</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><h1 id="demo"></h1></li>
+                </ul>
+                
+            </div>
+
+            <div class="search">
+                
+            </div>
+
+        </div> 
+        <div class="content">
+            <h1>My Portfolio & <br>About myself <br>Strand TVL CSS 12</h1>
+            <p class="par"><h3>This Portolio is made by<br> Jesus Go Grade 12 TVL CSS 12 AT Butuan City Comprehensive High School</h3></p>
+
+                <button class="cn"><a href="#">JOIN US</a></button>
+
+                <div id="form" class="form">
+                    <form id="Form">
+                    <h2>Login Here</h2>
+                    <input type="text" name="uname" placeholder="Enter Email Here">
+                    <input type="password" name="" placeholder="Enter Password Here">
+                    <input type="button" onclick="myFunction()" class="btnn" value="Sign In">
+
+                    <p class="link">Don't have an account<br>
+                    <a href="#">Sign up </a> here</a></p>
+                    <p class="liw">Log in with</p>
+
+                    <div class="icons">
+                        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+                    </div></form>
+
+                </div> 
+                <script type="text/javascript">function myFunction() {
+    var x = document.getElementById("Form").elements.namedItem("uname").value;
+  document.getElementById("demo").innerHTML = x;
+  document.getElementById("form").style.display = "none"
+  document.getElementById("demo").style.display = "flex"
+
+
+
+}
+</script>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>
