@@ -9,7 +9,7 @@
     background-position: center;
     background-size: cover;
     height: 100vh;
-    background-image: url("https://i.imgur.com/xrbwpwA.gifs");
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/270/831/642/digital-art-pixel-art-pixels-moon-horizon-blue-reflection-nature-sea-clouds-hills-mountains-night-stars-landscape-wallpaper-preview.jpg");
 }
 
 .navbar{
@@ -140,7 +140,7 @@ ul li a:hover{
 .content .cn{
     width: 160px;
     height: 40px;
-    background: black;
+    background: #ff7200;
     border: none;
     margin-bottom: 10px;
     margin-left: 20px;
